@@ -1,5 +1,5 @@
-.Main{
-    background-color: white;
-    width: 150vh;
-    margin-left: 15vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
