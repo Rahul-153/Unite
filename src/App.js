@@ -9,10 +9,8 @@ function App() {
 
 {/* <!-- Intro --> */}
   <div id="intro">
-    <h1>Hack A Fun<br />
-    Join Create Progress</h1>
-    <p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-    and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+    <h1>Unite<br />
+    <small>Join Create Progress</small></h1>
     <ul className="actions">
       <li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
     </ul>
@@ -46,15 +44,13 @@ function App() {
       <article className="post featured">
         <header className="major">
           <span className="date">April 25, 2017</span>
-          <h2><a href="/">And this is a<br />
-          massive headline</a></h2>
-          <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-          facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-          amet nullam sed etiam veroeros.</p>
+          <h2><a href="/">Unite<br />
+          Join Create Progress</a></h2>
+          <p>Want your doubts solved, too shy to ask the teachers, want an open discussions forum,got an idea, like to contribute.You have a single stop for all your solutions.</p>
         </header>
         <a href="/" className="image main"><img src="images/pic01.jpg" alt="" /></a>
         <ul className="actions special">
-          <li><a href="/" className="button large">Full Story</a></li>
+          <li><a href="/" className="button large">Hit Me!</a></li>
         </ul>
       </article>
 
@@ -62,9 +58,8 @@ function App() {
       <section className="posts">
         <article>
           <header>
-            <span className="date">April 24, 2017</span>
-            <h2><a href="/">Sed magna<br />
-            ipsum faucibus</a></h2>
+            {/* <span className="date">April 24, 2017</span> */}
+            <h2><a href="/">WorkShops</a></h2>
           </header>
           <a href="/" className="image fit"><img src="images/pic02.jpg" alt="" /></a>
           <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -74,9 +69,9 @@ function App() {
         </article>
         <article>
           <header>
-            <span className="date">April 22, 2017</span>
-            <h2><a href="/">Primis eget<br />
-            imperdiet lorem</a></h2>
+            {/* <span className="date">April 22, 2017</span> */}
+            <h2><a href="/">DISCUSSIONS<br />
+            FORUM</a></h2>
           </header>
           <a href="/" className="image fit"><img src="images/pic03.jpg" alt="" /></a>
           <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -87,8 +82,8 @@ function App() {
         <article>
           <header>
             <span className="date">April 18, 2017</span>
-            <h2><a href="/">Ante mattis<br />
-            interdum dolor</a></h2>
+            <h2><a href="/">PROJECT<br />
+            BUILDING</a></h2>
           </header>
           <a href="/" className="image fit"><img src="images/pic04.jpg" alt="" /></a>
           <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -99,8 +94,8 @@ function App() {
         <article>
           <header>
             <span className="date">April 14, 2017</span>
-            <h2><a href="/">Tempus sed<br />
-            nulla imperdiet</a></h2>
+            <h2><a href="/">ENHANCE YOUR<br />
+            SKILLS</a></h2>
           </header>
           <a href="/" className="image fit"><img src="images/pic05.jpg" alt="" /></a>
           <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
@@ -111,7 +106,7 @@ function App() {
         <article>
           <header>
             <span className="date">April 11, 2017</span>
-            <h2><a href="/">Odio magna<br />
+            <h2><a href="/"><br />
             sed consectetur</a></h2>
           </header>
           <a href="/" className="image fit"><img src="images/pic06.jpg" alt="" /></a>
