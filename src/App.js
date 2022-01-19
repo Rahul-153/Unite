@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Main from './components/Main';
 import Nav from './components/Nav';
-
+import Contribute form './Contribute_to_project'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main/>}>
             </Route>
+            
         </Routes>
     <Footer/>
 </div>
