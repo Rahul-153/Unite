@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.center-card{
+    background-color: white;
+    width: 80vw;
+box-shadow: 0 0 2rem grey;
+    margin-left: 10vw;
+    top: 80vh;
+    z-index: 1;
+    position: relative;
+    top: -10vh;
+}
