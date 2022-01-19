@@ -19,11 +19,18 @@
     color: black;
 }
 .bars{
-    /* display: none; */
-    margin-left: 50vw;
+    display: none;
+}
+.fa-bars:hover{
+    cursor: pointer;
 }
 @media screen and (max-width:600px) {
     .bars{
         display: block;
+        margin-left: 90%;
+        margin-top: 1%;
+    }
+    .links{
+        display: none;
     }
 }
