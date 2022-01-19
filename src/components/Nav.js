@@ -5,12 +5,12 @@ import '../Styles/Nav.css'
 function Nav() {
   return (
     <div className="Nav">
-        <ul className="links">
-          <Link className="nav-links" to="/">Home</Link>
-          <Link className="nav-links" to="/">WorkShops</Link>
-          <Link className="nav-links" to="/">Join Our Community</Link>
-          <Link className="nav-links" to="/">Discussions</Link>
-        </ul>
+        <div className="links">
+          <div className="links-container"><Link className="nav-links" to="/">Home</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/">WorkShops</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/">Join Our Community</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/">Discussions</Link></div>
+        </div>
     </div>
   );
 }
