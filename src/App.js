@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Contribute from './Contribute_to_project'
+import Discussions from './components/Discussions';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route exact path="/" element={<Main/>}/>
             <Route exact path="/project" element={<Contribute/>}/>
+            <Route exact path="/discussions" element={<Discussions/>}/>
         </Routes>
         <Footer className="main-footer"/>
         </div>

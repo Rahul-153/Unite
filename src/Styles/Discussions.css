@@ -21,11 +21,3 @@
 .content-1 h6{
     font-size: 2rem;
 }
-@media screen and (max-width:600px) {
-    .content-1{
-        padding-left: 0;
-    }
-    .content-1 h1{
-        font-size: 4rem;
-    }
-}
