@@ -5,8 +5,8 @@ function Main() {
   return <div id="main">
     <div className="head1"><span>Unite</span></div>
     <div className="tagline">Join Create Progress</div>
-    <div><p>This site will let you create, grow and enhance your skills</p></div>
-    <div className="main-img"><img src="https://i.pinimg.com/236x/4b/ed/bd/4bedbd5645707a87609f7abf8bddbfc6.jpg"/></div>
+    <div><img src="https://bit.ly/33Qjdi7" className="main-img"/></div>
+	<div className="desc"><p>This site will let you create, grow and enhance your skills</p></div>
     <div className="main-cards">
     <div class="posts">
       <div className="card-container">
@@ -14,47 +14,53 @@ function Main() {
 									<header>
 									<h1>Workshops</h1>
 									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
+									<div>	<Link to="/" className="know">Know More</Link></div>
 								</div>
-                <div className="card1">
+								<div className="card1">
 									<header>
 									<h1>Workshops</h1>
 									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
-								</div>
-      </div>
-      <div className="card-container">
-      <div className="card1">
-									<header>
-									<h1>Workshops</h1>
-									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
-								</div>
-                <div className="card1">
-									<header>
-									<h1>Workshops</h1>
-									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
+									<div className="know-container">	<Link to="/" className="know">Know More</Link></div>
 								</div>
       </div>
       <div className="card-container">
-      <div className="card1">
+	  <div className="card1">
 									<header>
 									<h1>Workshops</h1>
 									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
+									<div>	<Link to="/" className="know">Know More</Link></div>
 								</div>
-                <div className="card1">
+								<div className="card1">
 									<header>
 									<h1>Workshops</h1>
 									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-										<div><Link to="/">Know More</Link></div>
+									<div>	<Link to="/" className="know">Know More</Link></div>
+								</div>
+      </div>
+      <div className="card-container">
+	  <div className="card1">
+									<header>
+									<h1>Workshops</h1>
+									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<div>	<Link to="/" className="know">Know More</Link></div>
+								</div>
+								<div className="card1">
+									<header>
+									<h1>Workshops</h1>
+									</header>
+									<div><img src="https://bit.ly/3KqXSN0" className="post-img"/></div>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<div>	<Link to="/" className="know">Know More</Link></div>
 								</div>
       </div>
 								

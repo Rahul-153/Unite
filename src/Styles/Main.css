@@ -13,18 +13,33 @@
     min-width: 50vh;
 }
 .head1{
+    padding-top: 5rem;
     width: 100%; 
     text-align: center; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.486); 
     line-height: 0.1em;
     margin: 10px 0 20px; 
 }
 .head1 span{
     background:#fff; 
     padding:0 20px; 
+    font-size: 5rem;
+}
+.tagline{
     font-size: 2rem;
+    word-spacing: .5rem;
+    padding: .5rem;
+    margin-bottom: 2rem;
+}
+.desc{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.main-img{
+    width: 50vw;
 }
 .main-cards{
+    margin-top: 10rem;
     border-top: solid 2px #eeeeee;
     display: flex;
     flex-direction: column;
@@ -35,5 +50,31 @@
 }
 .card1{
     border: solid 2px #eeeeee;
-    text-align: center
+    text-align: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.card1 p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.post-img{
+    width: 20vw;
+    padding: 1rem;
+}
+.knowmore{
+    align-items: baseline;
+    color: aliceblue;
+}
+.know-container{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+.know{
+    color: black;
+    border: 1px solid cornflowerblue;
+    width: 20%;
+    padding: .5rem;
 }
