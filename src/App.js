@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Main from './components/Main';
 import Nav from './components/Nav';
-import Contribute form './Contribute_to_project'
+import Contribute from './Contribute_to_project'
 
 function App() {
   return (
