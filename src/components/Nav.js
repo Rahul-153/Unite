@@ -1,24 +1,19 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link} from "react-router-dom";
 import '../Styles/Nav.css'
 
 function Nav() {
-  const clickNav=()=>{
-    var bars=document.getElementsByClassName(bars);
-    if(bars.style.display==="none"){
-
-    }
-  }
+  const [showNav,setshowNav]=useState(false);
   return (
     <div className="Nav">
-        <div className="links">
+        <div className={showNav?"mobile-view":"links"}>
           <div className="links-container"><Link className="nav-links" to="/">Home</Link></div>
           <div className="links-container"><Link className="nav-links" to="/project">Projects</Link></div>
           <div className="links-container"><Link className="nav-links" to="/project">Workshops</Link></div>
-          <div className="links-container"><Link className="nav-links" to="/">Join Our Community</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/">Community</Link></div>
           <div className="links-container"><Link className="nav-links" to="/discussions">Discussions</Link></div>
         </div>
-        <div className="bars"><i class="fa fa-bars fa-2x" onClick={clickNav}></i></div>
+        <div className="bars"><i class="fa fa-bars fa-2x" onClick={()=>{setshowNav(!showNav)}}></i></div>
     </div>
   );
 }
