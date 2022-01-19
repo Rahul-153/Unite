@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Footer.css'
+import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
@@ -22,7 +23,7 @@ function Footer() {
           </div>
         </div>
         <ul className="actions">
-          <div className='send'><input type="submit" value="Send Message" /></div>
+          <div className='send-container'><Link to="/" className='send'>SEND</Link></div>
         </ul>
       </form>
     </div>

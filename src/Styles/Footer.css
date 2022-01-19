@@ -1,7 +1,6 @@
 #footer{
     background-color: whitesmoke;
     width: 80vw;
-    margin-left: 10vw;
     display: flex;
     height: 50vh;
 }
@@ -20,7 +19,15 @@
     height: 3vh;
 }
 .send{
-    padding-left: 3rem;
+    margin-left: 3rem;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: .5rem;
+}
+.send-container :hover{
+    background-color: black;
+    color: whitesmoke;
 }
 .send input{
     background-color: white;

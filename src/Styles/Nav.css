@@ -1,8 +1,12 @@
 .Nav{
-    background-color: rgba(255, 255, 255, 0.176);
+    background-color: rgba(160, 158, 158, 0.176);
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 .links{
-    margin-left:20vw;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -12,4 +16,14 @@
     color: white;
     font-size: 3vh;
     padding-left: 3rem;
+    color: black;
+}
+.bars{
+    /* display: none; */
+    margin-left: 50vw;
+}
+@media screen and (max-width:600px) {
+    .bars{
+        display: block;
+    }
 }
