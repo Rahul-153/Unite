@@ -1,21 +1,20 @@
 .contribute_container img {
-  
   max-height: 5.3125rem;
   max-width: 11.25rem;
   padding-top: 5px;
   padding-bottom: 10px;
-  
 }
-#contribute_img_container{
- height: 100px;
+#contribute_img_container {
+  height: 100px;
 }
 .contribute_title {
   padding: 5px 30px;
 }
-.contribute_desc{
+.contribute_desc {
   padding: 5px 30px;
 }
 .contribute_container {
+ 
   background-color: rgb(190, 188, 188);
   border-radius: 10%;
   padding-top: 30px;

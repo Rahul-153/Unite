@@ -13,7 +13,7 @@ function Nav() {
           <div className="links-container"><Link className="nav-links" to="/community">Community</Link></div>
           <div className="links-container"><Link className="nav-links" to="/discussions">Discussions</Link></div>
         </div>
-        <div className="bars"><i class="fa fa-bars fa-2x" onClick={()=>{setshowNav(!showNav)}}></i></div>
+        <div className="bars"><i className="fa fa-bars fa-2x" onClick={()=>{setshowNav(!showNav)}}></i></div>
     </div>
   );
 }

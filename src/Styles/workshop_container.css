@@ -1,0 +1,10 @@
+.work_container {
+  background-color: white;
+  width: 75%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 70%;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}

@@ -1,4 +1,5 @@
-export const data = [
+export const data = {
+  ar:[
   {
     id: 1,
     src: 'https://lh3.googleusercontent.com/4MKDUPRidEZ7TQ9EIxeGAAm-DYkSWt04DkuJgajum7GogsRqJe63_yNEoLKDe5wMhon6scAHlPEu4r2O4kBNd3locxU-jD3sXezm3_dKkQY',
@@ -46,5 +47,6 @@ export const data = [
     src: 'https://lh3.googleusercontent.com/gQpqhgsXrg8XsMRv2HRqfFlU7MR-F4wrqrUQBRvm5V_197LI3Nhl0dTipA9Gd62gYm5SDIvsec_3ZK-Ccq3z6uxuN-YXhjSaUPx0aS6qWWZh',
     title: 'AOSSIE',
     desc: 'Australian Umbrella Org for Open-Source Projects',
-  },
-]
+  }
+],
+}
