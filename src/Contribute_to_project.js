@@ -9,7 +9,7 @@ function App()
         <center>
           <div className='contri_container'>
             {
-            data.map((item,index)=>{
+            data.ar.map((item,index)=>{
               //const {id,src,title,desc}=item
               return(
               <Card key={item.id} obj={item} />
