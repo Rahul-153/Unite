@@ -66,3 +66,15 @@
     display: flex;
     justify-content: space-evenly;
 }
+@media screen and (max-width:600px) {
+    #footer{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .footer-left,.footer-right{
+        width: 80vw;
+    }
+    .footer-right{
+        margin-top: 1rem;
+    }
+}
