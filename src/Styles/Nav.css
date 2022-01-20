@@ -1,5 +1,5 @@
 .Nav{
-    background-color: #4068829b;
+    background-color: rgba(0, 0, 0, 0.486);
     position: fixed;
     z-index: 100;
     width: 100vw;
@@ -16,7 +16,7 @@
     color: white;
     font-size: 3vh;
     padding-left: 3rem;
-    color: black;
+    color: white;
 }
 .bars{
     display: none;
