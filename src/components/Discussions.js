@@ -4,7 +4,7 @@ import newsCard from './newsCard';
 const API_KEY='31c57fa11a99402ca9ff283d5606aba9';
 
 function Discussions (){
-  const [data, setdata] = useState({});
+  const [data, setdata] = useState();
   const news= async ()=>{
     let response = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${API_KEY}`);
   setdata(await response.json());
@@ -23,12 +23,12 @@ function Discussions (){
       </div>
       <div className='ask-text'>Want to ask or share something</div>
     </div>
-    {
-      data.articles.map((e,index)=>{
+    {/* {
+      data.length==0?<div></div>:data.articles.map((e,index)=>{
         return <newsCard author={e.author} title={e.title} desc={e.description}/>
       }
       )
-    }
+    } */}
   </div>
   );
 }

@@ -10,7 +10,7 @@ function Nav() {
           <div className="links-container"><Link className="nav-links" to="/">Home</Link></div>
           <div className="links-container"><Link className="nav-links" to="/project">Projects</Link></div>
           <div className="links-container"><Link className="nav-links" to="/project">Workshops</Link></div>
-          <div className="links-container"><Link className="nav-links" to="/">Community</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/community">Community</Link></div>
           <div className="links-container"><Link className="nav-links" to="/discussions">Discussions</Link></div>
         </div>
         <div className="bars"><i class="fa fa-bars fa-2x" onClick={()=>{setshowNav(!showNav)}}></i></div>
