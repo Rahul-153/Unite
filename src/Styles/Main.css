@@ -9,6 +9,12 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.post1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .head1{
     padding-top: 5rem;
     width: 100%; 
@@ -59,10 +65,10 @@
     font-size: 1.5rem;
     padding: 1rem;
 }
-.post-img{
+/* .post-img{
     width: 20vw;
     padding: 1rem;
-}
+} */
 .knowmore{
     align-items: baseline;
     color: aliceblue;
@@ -82,3 +88,10 @@
     width: 20%;
     padding: .5rem;
 }
+@media screen and (min-width:320px )and (max-width:800px) {
+.post1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}}

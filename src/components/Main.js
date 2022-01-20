@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Main.css";
 import { Link } from "react-router-dom";
+import Card from "./Card";
 function Main() {
   return (
     <div id="main">
@@ -16,7 +17,13 @@ function Main() {
       </div>
       <div className="main-cards">
         <div class="posts">
-          <div className="card-container">
+          <div class="post1">
+          <Card/>
+          <Card/></div>
+          <div class="post1">
+          <Card/>
+          <Card/></div>
+          {/* <div className="card-container">
             <div className="card1">
               <header>
                 <h1>Workshops</h1>
@@ -135,7 +142,7 @@ function Main() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
