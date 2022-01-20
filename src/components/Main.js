@@ -19,7 +19,7 @@ function Main() {
           <div className="card-container">
             <div className="card1">
               <header>
-                <h1>Workshops</h1>
+                <h1>Projects</h1>
               </header>
               <div>
                 <img src="https://bit.ly/3KqXSN0" className="post-img" />
@@ -59,7 +59,7 @@ function Main() {
           <div className="card-container">
             <div className="card1">
               <header>
-                <h1>Workshops</h1>
+                <h1>Discussions Forum</h1>
               </header>
               <div>
                 <img src="https://bit.ly/3KqXSN0" className="post-img" />
@@ -78,7 +78,7 @@ function Main() {
             </div>
             <div className="card1">
               <header>
-                <h1>Workshops</h1>
+                <h1>Community</h1>
               </header>
               <div>
                 <img src="https://bit.ly/3KqXSN0" className="post-img" />
@@ -99,7 +99,7 @@ function Main() {
           <div className="card-container">
             <div className="card1">
               <header>
-                <h1>Workshops</h1>
+                <h1>Wanna Learn</h1>
               </header>
               <div>
                 <img src="https://bit.ly/3KqXSN0" className="post-img" />
