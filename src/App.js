@@ -7,13 +7,10 @@ import Nav from './components/Nav';
 import Contribute from './Contribute_to_project'
 import X from './components/Contribute_card'
 import Discussions from './components/Discussions';
-<<<<<<< HEAD
 import Community from './components/Community';
-=======
 import Workshop from './Workshop'
 import Workshop_card from './components/Workshop_card'
 import Commentbox from './components/Commentbox'
->>>>>>> a84e32dbc233c737eef95553fdf9a01248839f35
 
 function App() {
   return (
@@ -22,12 +19,10 @@ function App() {
       <Intro />
       <div className='center-card'>
         <Routes>
-<<<<<<< HEAD
             <Route exact path="/" element={<Main/>}/>
             <Route exact path="/project" element={<Contribute/>}/>
             <Route exact path="/discussions" element={<Discussions/>}/>
             <Route exact path="/community" element={<Community/>}/>
-=======
           <Route
             exact
             path='/'
@@ -39,9 +34,8 @@ function App() {
 
           <Route exact path='/project' element={<Contribute />} />
           <Route exact path='/discussions' element={<Discussions />} />
->>>>>>> a84e32dbc233c737eef95553fdf9a01248839f35
         </Routes>
-        {/* <Footer className="main-footer"/> */}
+        <Footer className="main-footer"/> 
       </div>
     </div>
   )
