@@ -9,6 +9,7 @@
   height: 100px;
     display: flex;
    justify-content: center;
+
 }
 .contribute_title {
   padding: 5px 30px;
@@ -23,6 +24,7 @@
  justify-content: center;
   background-color: rgb(190, 188, 188);
   border-radius: 10%;
+  margin: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
 }

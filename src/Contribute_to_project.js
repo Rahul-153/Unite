@@ -8,6 +8,7 @@ function App()
     return (
       <>
         <center>
+          <h1 id="project-heading">PROJECTS </h1>
           <div className='contri_container'>
             {
             data.ar.map((item,index)=>{
