@@ -1,8 +1,8 @@
 .contri_container {
   background-color: white;
-  width: 80%;
-  justify-content: center;
+  width: 90%;
   display: grid;
+  justify-content: center;
   grid-template-columns: 40% 40%;
   grid-template-rows: auto;
   grid-column-gap: 10px;
