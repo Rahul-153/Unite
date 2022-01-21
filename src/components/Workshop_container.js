@@ -13,8 +13,6 @@ function App() {
             //const {id,src,title,desc}=item
             return <Card key={item.id} obj={item} />
           })}
-         
-
         </div>
       </center>
     </>

@@ -6,7 +6,8 @@ import Main from './components/Main';
 import Nav from './components/Nav';
 import Contribute from './components/Contribute_to_project'
 import Contricard from './components/Contribute_card'
-import Discussions from './components/newsCard';
+// import Discussions from './components/newsCard';
+import CommentBox from './components/Commentbox';
 import Community from './components/Community';
 import Workcard from './components/Workshop_card'
 import Workshopcontain from './components/Workshop_container'
@@ -28,7 +29,7 @@ function App() {
           <Route exact path='/' element={<Main />} />
           <Route exact path='/workshop' element={<Workshopcontain />} />
           <Route exact path='/project' element={<Contribute />} />
-          <Route exact path='/discussions' element={<Discussions />} />
+          <Route exact path='/discussions' element={<CommentBox className="comment"/>} />
           <Route exact path='/community' element={<Community />} />
         </Routes>
         <Footer className="main-footer"/> 

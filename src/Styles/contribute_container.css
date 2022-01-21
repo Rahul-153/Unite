@@ -11,7 +11,34 @@
 #project-heading{
   font-size: 60px;
   font-weight: 800;
- 
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.android-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 45%;
+  margin-bottom: 2rem;
+}
+.web-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 45%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.mi-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 @media only screen and (max-width: 600px) {
   .contri_container {

@@ -7,19 +7,42 @@ function App()
 {
     return (
       <>
-        <center>
+        <div>
           <h1 id="project-heading">PROJECTS </h1>
+          <div className='android-head'>Android Development</div>
           <div className='contri_container'>
             {
             data.ar.map((item,index)=>{
               //const {id,src,title,desc}=item
-              return(
+              if(index<2)return(
               <Card key={item.id} obj={item} />
               )
             })
           }
           </div>
-        </center>
+          <div className='web-head'>Web Development</div><br/>
+          <div className='contri_container'>
+          {
+            data.ar.map((item,index)=>{
+              //const {id,src,title,desc}=item
+              if(index>2 && index<=4)return(
+              <Card key={item.id} obj={item} />
+              )
+            })
+          }
+          </div>
+          <div className='mi-head'>MI/AL</div><br/>
+          <div className='contri_container'>
+          {
+            data.ar.map((item,index)=>{
+              //const {id,src,title,desc}=item
+              if(index>2 && index<=4)return(
+              <Card key={item.id} obj={item} />
+              )
+            })
+          }
+          </div>
+        </div>
       </>
     )
   

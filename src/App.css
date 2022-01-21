@@ -12,4 +12,8 @@ box-shadow: 0 0 2rem grey;
     z-index: 1;
     position: relative;
     top: -10vh;
+    padding-top: 2rem;
+}
+.comment{
+    margin-top: 10rem;
 }

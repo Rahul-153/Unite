@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import '../Styles/Discussions.css';
 import NewsCard from './newsCard';
+import CommentBox from './Commentbox';
 const API_KEY='31c57fa11a99402ca9ff283d5606aba9';
 
 function Discussions (){
@@ -14,22 +15,7 @@ function Discussions (){
     news();
   }, []);
   return (
-  <div className='discussions'>
-    <div className='disc-head'>Join the Discussion!</div>
-    <div className='ask'>
-      <div className='ask-top'>
-      <div className='p-icon'><i class="fas fa-user"></i></div>
-      <div className='user-name'>Rahul Rathore</div>
-      </div>
-      <div className='ask-text'>Want to ask or share something</div>
-    </div>
-    {
-      data.articles.map((e,index)=>{
-        return <NewsCard author={e.author} title={e.title} desc={e.description}/>
-      }
-      )
-    }
-  </div>
+  <CommentBox/>
   );
 }
 
