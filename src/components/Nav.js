@@ -9,7 +9,7 @@ function Nav() {
         <div className={showNav?"mobile-view":"links"}>
           <div className="links-container"><Link className="nav-links" to="/">Home</Link></div>
           <div className="links-container"><Link className="nav-links" to="/project">Projects</Link></div>
-          <div className="links-container"><Link className="nav-links" to="/project">Workshops</Link></div>
+          <div className="links-container"><Link className="nav-links" to="/workshop">Workshops</Link></div>
           <div className="links-container"><Link className="nav-links" to="/community">Community</Link></div>
           <div className="links-container"><Link className="nav-links" to="/discussions">Discussions</Link></div>
         </div>

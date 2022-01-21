@@ -1,7 +1,8 @@
 import React from 'react'
 import Card from './components/Contribute_card'
 import './Styles/contribute_container.css'
-import {data} from './data'
+
+import {data} from './data_contri'
 function App()
 {
     return (

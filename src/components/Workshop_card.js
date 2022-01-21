@@ -2,48 +2,50 @@
 import React from 'react'
 import '../Styles/workshop_card.css'
 
-function Card()
+function Card(props)
 {
-    //const { src, title, desc } = props.obj;
+    const { src, topic, desc, objective, src2, name, cred } = props.obj
     return (
       <>
-        <div className='enclose'>
+        <div id='temp'>
           <div className='workshop_container'>
+            
             <div
               className='workshop_cover'
               style={{
-                backgroundImage:
-                  'url(https://www.sessionlab.com/wp-content/uploads/WARP-remote-retrospective-cover.png)',
+                backgroundImage: `url('${src}')`,
               }}
             ></div>
 
-            <div className='workshop_title'> WARP Remote Retrospective</div>
+            <div className='workshop_title'>
+              {' '}
+              <b> {topic}</b>
+            </div>
+
             <div className='workshop_body'>
-              <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                qui iure eaque reiciendis laudantium hic ratione magnam
-                blanditiis alias quasi.
-              </div>
+              <div>{desc}</div>
 
               <div className='center'>
                 <b>Objectives:</b>
+                <br />
 
                 <ul>
-                  <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, laboriosam?</li>
-                  <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, laboriosam?</li>
-                  <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, laboriosam?</li>
-                  <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, laboriosam?</li>
-                  <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, laboriosam?</li>
+                  {objective.map((item, index) => {
+                    return <li key={index}>{item}</li>
+                  })}
                 </ul>
               </div>
             </div>
-            <div className='workshop_author'>
-              <div className='author_img'>
-                
-              </div>
 
-              <div className='author_name'></div>
-              <div className='author_cred'></div>
+            <div className='workshop_author'>
+              <img src={src2}></img>
+
+              <div>
+                <div className='author_name'>
+                  <b>{name}</b>
+                </div>
+                <div className='author_cred'>{cred}</div>
+              </div>
             </div>
           </div>
         </div>
