@@ -4,12 +4,12 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Main from './components/Main';
 import Nav from './components/Nav';
-import Contribute from './Contribute_to_project'
+import Contribute from './components/Contribute_to_project'
 import Contricard from './components/Contribute_card'
 import Discussions from './components/newsCard';
 import Community from './components/Community';
 import Workcard from './components/Workshop_card'
-import Workshopcontain from './Workshop_container'
+import Workshopcontain from './components/Workshop_container'
 // <Contricard
 //                 obj={{
 //                   src: 'https://lh3.googleusercontent.com/4MKDUPRidEZ7TQ9EIxeGAAm-DYkSWt04DkuJgajum7GogsRqJe63_yNEoLKDe5wMhon6scAHlPEu4r2O4kBNd3locxU-jD3sXezm3_dKkQY',

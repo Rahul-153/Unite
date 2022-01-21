@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './components/Contribute_card'
-import './Styles/contribute_container.css'
+import Card from './Contribute_card'
+import '../Styles/contribute_container.css'
 
 import {data} from './data_contri'
 function App()
@@ -8,6 +8,7 @@ function App()
     return (
       <>
         <center>
+          <h1 id="project-heading">PROJECTS </h1>
           <div className='contri_container'>
             {
             data.ar.map((item,index)=>{

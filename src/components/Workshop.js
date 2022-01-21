@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './components/Workshop_card'
+import Card from './Workshop_card'
 import './Styles/workshop_container.css'
 
 function App() {

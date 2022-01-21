@@ -8,8 +8,14 @@
   grid-column-gap: 10px;
   grid-row-gap: 20px;
 }
+#project-heading{
+  font-size: 60px;
+  font-weight: 800;
+ 
+}
 @media only screen and (max-width: 600px) {
   .contri_container {
     grid-template-columns: 80%;
   }
 }
+
