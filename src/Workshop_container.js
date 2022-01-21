@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <center>
+      <h1 id="heading">Workshops</h1>
         <div className='work_container'>
           {data.map((item, index) => {
             //const {id,src,title,desc}=item
