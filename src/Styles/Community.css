@@ -1,8 +1,17 @@
+.community{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
 .what{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: #FAEEE7;
     height: 25vh;
+    width: 100%;
 }
 .what-head{
     text-align: center;
@@ -17,20 +26,27 @@
 }
 .aim{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 5rem;
     margin-left: 10rem;
     margin-top: 10rem;
     background-color: #FAEEE7;
+    justify-content: center;
+    align-items: center;
 }
 .aim-left{
     font-size: 5rem;
     margin-left: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .aim-right{
     width: 40vw;
-    padding-top: 5rem;
+    padding: 2rem;
     text-align: center;
-    margin-left: 7rem;
+    padding-left: 4rem;
 }
 .contact{
     display: flex;
@@ -38,10 +54,50 @@
     background-color: #FAEEE7;
     margin-right: 10rem;
     margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
 }
 .contact-desc{
     padding: 4rem;
+    text-align: center;
 }
 .contact-head{
     font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+@media screen and (max-width:900px) {
+    .what{
+        height: 100%;
+    }
+    .what-head{
+        font-size: 3rem;
+    }
+    .aim{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .aim-left{
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+    .aim-right{
+        margin: 0;
+        padding: 0;
+    }
+    .contact{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .contact-desc{
+        order: 2;
+    }
+    .contact-head{
+        order: 1;
+        font-size: 3rem;
+    }
 }
