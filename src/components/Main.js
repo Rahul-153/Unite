@@ -16,11 +16,11 @@ function Main() {
         <p>This site will let you create, grow and enhance your skills</p>
       </div>
       <div className="main-cards">
-        <div class="posts">
-          <div class="post1">
+        <div className="posts">
+          <div className="post1">
           <Card/>
           <Card/></div>
-          <div class="post1">
+          <div className="post1">
           <Card/>
           <Card/></div>
           {/* <div className="card-container">

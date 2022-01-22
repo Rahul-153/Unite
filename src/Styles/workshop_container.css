@@ -8,3 +8,8 @@
   grid-column-gap: 10px;
   grid-row-gap: 50px;
 }
+@media only screen and (max-width: 600px) {
+  .work_container {
+    grid-template-columns: 80%;
+  }
+}

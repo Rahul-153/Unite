@@ -1,4 +1,4 @@
-export const data = {
+export const dataContri = {
   ar:[
   {
     id: 1,

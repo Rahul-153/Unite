@@ -5,11 +5,12 @@ import '../Styles/workshop_card.css'
 function Card(props)
 {
     const { src, topic, desc, objective, src2, name, cred } = props.obj
+    var width = props.width
+    if (width == null) width = '100%'
     return (
       <>
-        <div id='temp'>
+        <div id='temp' style={{ width: width }}>
           <div className='workshop_container'>
-            
             <div
               className='workshop_cover'
               style={{

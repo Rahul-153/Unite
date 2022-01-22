@@ -1,4 +1,4 @@
-export const data = [
+export const data= [
   {
     id: 1,
     src: 'https://www.sessionlab.com/wp-content/uploads/One-hour-Brain-Sprint-cover.png',
