@@ -1,3 +1,4 @@
+
 .contribute_container img {
 
   max-height: 5.3125rem;
@@ -9,20 +10,25 @@
   height: 100px;
     display: flex;
    justify-content: center;
+
 }
 .contribute_title {
   padding: 5px 30px;
 }
 .contribute_desc {
   padding: 5px 30px;
+  font-size: 0.8rem;
+  color: gray;
 }
 .contribute_container {
  /* width: 40%; */
+ border: 1.5px solid black;
  display: flex;
  flex-direction: column;
  justify-content: center;
-  background-color: rgb(190, 188, 188);
+  background-color: white;
   border-radius: 10%;
+  margin: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
 }

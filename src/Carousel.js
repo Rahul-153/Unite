@@ -51,6 +51,7 @@ const Carousel = ({ children }) => {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
+      
       <div
         className='inner'
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
