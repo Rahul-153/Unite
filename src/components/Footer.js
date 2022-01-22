@@ -37,10 +37,11 @@ function Footer() {
           <div className='footer-right'>
             <div className='right address'>
               <h3>Address</h3>
-              <p>
+              <p style={{marginBottom:"20px"}}>
                 1234 Somewhere Road #87257
+             
                 <br />
-                Nashville, TN 00000-0000
+               
               </p>
             </div>
             <div className='right number'>

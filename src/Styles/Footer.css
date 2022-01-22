@@ -2,7 +2,7 @@
     background-color: whitesmoke;
     width: 80vw;
     display: flex;
-    height: 50vh;
+    height: 100%;
 }
 .footer-left{
     width: 40vw;
@@ -69,7 +69,7 @@
 @media screen and (max-width:600px) {
     #footer{
         flex-direction: column;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .footer-left,.footer-right{
         width: 80vw;
