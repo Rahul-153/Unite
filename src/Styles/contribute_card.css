@@ -5,6 +5,7 @@
   max-width: 11.25rem;
   padding-top: 5px;
   padding-bottom: 10px;
+
 }
 #contribute_img_container {
   height: 100px;
@@ -22,6 +23,7 @@
 }
 .contribute_container {
  /* width: 40%; */
+ text-align: center;
  border: 1.5px solid black;
  display: flex;
  flex-direction: column;
@@ -32,3 +34,14 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+    @media screen and (max-width:400px) {
+      .contribute_container img {
+
+  max-height: 7rem;
+  max-width: 8rem;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+        }

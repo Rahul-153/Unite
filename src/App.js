@@ -14,7 +14,7 @@ import Workshopcontain from './components/Workshop_container'
 import { dataContri } from './components/data_contri'
 import Carousel from './Carousel'
 import {data} from './components/data_workshop'
-
+import Carouselboth from './CarouselBoth';
 {/* <Contricard
                 obj={{
                   src: 'https://lh3.googleusercontent.com/4MKDUPRidEZ7TQ9EIxeGAAm-DYkSWt04DkuJgajum7GogsRqJe63_yNEoLKDe5wMhon6scAHlPEu4r2O4kBNd3locxU-jD3sXezm3_dKkQY',
@@ -37,34 +37,7 @@ function App() {
             element={
               <div className='Appi'>
                 <Main/>
-                <Carousel>
-                  {dataContri.ar.map((item, index) => {
-                    //const {id,src,title,desc}=item
-                    return (
-                      <div
-                        key={item.id}
-                        className='carousl-item'
-                        style={{ width: '100%' }}
-                      >
-                        <Contricard obj={item} width={'40%'} />
-                      </div>
-                    )
-                  })}
-                </Carousel>
-                <Carousel>
-                  {data.map((item, index) => {
-                    //const {id,src,title,desc}=item
-                    return (
-                      <div
-                        key={item.id}
-                        className='carousl-item'
-                        style={{ width: '100%' }}
-                      >
-                        <Workcard obj={item} width={'40%'} />
-                      </div>
-                    )
-                  })}
-                </Carousel>
+                <Carouselboth/>
               </div>
             }
           />

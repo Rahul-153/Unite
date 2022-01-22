@@ -21,7 +21,7 @@ export const dataContri = {
   {
     id: 4,
     src: 'https://lh3.googleusercontent.com/Cuse4sTixkecf8wRwx4LW93vB8rj1hu6e-cKUrxa_jMrTkLDct_Xhw2nBd0Db6SmwcjMxeGEuN2HG9yp3gkRqXlbLeDdR0NxGJnU07iTeFHJug',
-    title: 'AerospaceResearch.net',
+    title: 'Aero space Research .net',
     desc: 'making space together',
   },
   {

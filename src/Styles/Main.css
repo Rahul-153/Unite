@@ -37,12 +37,13 @@
 .desc{
     font-size: 1.5rem;
     padding: 1.5rem;
+    text-align: center;
 }
 .main-img{
     width: 50vw;
 }
 .main-cards{
-    margin-top: 10rem;
+    margin-top: 8rem;
     border-top: solid 2px #eeeeee;
     display: flex;
     flex-direction: column;
@@ -89,10 +90,31 @@
     width: 20%;
     padding: .5rem;
 }
-@media screen and (min-width:320px )and (max-width:800px) {
+@media screen and (max-width:800px) {
 .post1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }}
+
+@media screen and (max-width:600px) {
+
+.head1 span{
+    padding:0 5px; 
+    font-size: 3rem;
+}
+.tagline{
+    font-size: 1rem;
+
+}
+.desc{
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+}
+.main-cards{
+    margin-top: 2rem;
+ 
+}
+}

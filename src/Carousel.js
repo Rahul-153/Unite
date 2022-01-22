@@ -3,22 +3,23 @@ import React, { useEffect, useState } from 'react'
 
 import './Styles/carousel.css'
 
-export const CarouselItem = ({ children, width }) => {
-  return (
-    <div className='carousl-item' style={{ width: width }}>
-      {children}
-    </div>
-  )
-}
+// export const CarouselItem = ({ children, width }) => {
+//   return (
+//     <div className='carousl-item' style={{ width: width }}>
+//       {children}
+//     </div>
+//   )
+// }
 
-const Carousel = ({ children }) => {
+const Carousel = ({ children,no }) => {
   const [activeIndex, setActiveIndex] = useState(0)
   const [paused, setPaused] = useState(false)
+  const nom = React.Children.count(children)/no;
 
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
-      newIndex = React.Children.count(children) - 1
-    } else if (newIndex >= React.Children.count(children)) {
+      newIndex = nom - 1
+    } else if (newIndex >= nom) {
       newIndex = 0
     }
 
