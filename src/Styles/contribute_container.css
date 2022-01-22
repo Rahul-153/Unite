@@ -46,5 +46,14 @@
   .contri_container {
     grid-template-columns: 80%;
   }
+  #project-heading{
+    font-size: 300%;
+  }
+  .android-head,.web-head,.mi-head{
+    font-size: 200%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 

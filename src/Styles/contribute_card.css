@@ -24,12 +24,13 @@
 .contribute_container {
  /* width: 40%; */
  text-align: center;
- border: 1.5px solid black;
+ border: .5rem solid #D67D3E;
+ background-color: #F5EEDC;
  display: flex;
  flex-direction: column;
  justify-content: center;
   background-color: white;
-  border-radius: 10%;
+  border-radius: 20%;
   margin: 20px;
   padding-top: 30px;
   padding-bottom: 30px;

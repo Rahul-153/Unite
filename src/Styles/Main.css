@@ -9,7 +9,8 @@
     align-self: center;
     margin-top: 10px;
     font-weight: 600;
-    font-size: 4rem
+    font-size: 4rem;
+    text-align: center;
 }
 #main{
     display: flex;
@@ -87,7 +88,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}}
+}
+.main-heading{
+    font-size: 200%;
+}
+}
 
 @media screen and (max-width:600px) {
 
