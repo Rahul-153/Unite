@@ -148,6 +148,7 @@ class Comment extends React.Component {
 
   _deleteComment(e) {
     if (window.confirm('DELETE !')) {
+      e.preventDefault();
       // console.log("hi");
       var count_node = document.getElementsByClassName('comment-count')[0]
       //   var idx=count_node.indexOf(' ');
