@@ -22,7 +22,25 @@
     .know{
         color: white;
     }
-   
+    .knowmore{
+        align-items: baseline;
+        color: aliceblue;
+    }
+    .know-container{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .know:hover{
+        background-color: cornflowerblue;
+        color: white;
+    }
+    .know{
+        color: white;
+        border: 1px solid cornflowerblue;
+        width: 20%;
+        padding: .5rem;
+    }
   
     @media screen and (max-width:800px) {
         .Card-container{ 
