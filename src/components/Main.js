@@ -13,7 +13,7 @@ function Main() {
         <img src="https://bit.ly/33Qjdi7" className="main-img" />
       </div>
       <div className="desc">
-        <p>This site will let you create, grow and enhance your skills</p>
+        <p>Unite will let you create, grow and enhance your skills.</p>
       </div>
       <div className="main-cards">
         <h1 className="main-heading">What We Provide ?</h1>
@@ -22,7 +22,6 @@ function Main() {
           <Card src="https://makeskill.in/wp-content/uploads/2020/01/workshops.jpg" title="Workshops" text="  Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
                 primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
                 mattis sagittis magna etiam." 
-            
                 />
           <Card src="https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg" title="Projects" text="  Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
                 primis in faucibus. Pellentesque venenatis dolor imperdiet dolor

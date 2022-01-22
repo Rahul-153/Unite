@@ -9,6 +9,7 @@
     align-self: center;
     margin-top: 10px;
     font-weight: 600;
+    font-size: 4rem
 }
 #main{
     display: flex;
@@ -43,7 +44,7 @@
     margin-bottom: 2rem;
 }
 .desc{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1.5rem;
     text-align: center;
 }
