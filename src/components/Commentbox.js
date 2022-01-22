@@ -45,8 +45,8 @@ class CommentBox extends React.Component {
         <button id='comment-reveal' onClick={this._handleClick.bind(this)}>
           {buttonText}
         </button>
-        <h3>Comments</h3>
-        <h4 className='comment-count'>{3 + ' comments'}</h4>
+        {/* <h3>Comments</h3> */}
+        <h4 className='comment-count'>{3} <i class="far fa-comments"></i></h4>
         {commentNodes}
       </div>
     )
@@ -89,7 +89,7 @@ class CommentBox extends React.Component {
     } else if (commentCount === 1) {
       return '1 comment'
     } else {
-      return `${commentCount} comments`
+      return <h4 className='comment-count'>{commentCount} <i class="far fa-comments"></i></h4>
     }
   }
 } // end CommentBox component
@@ -134,13 +134,6 @@ class Comment extends React.Component {
         <p className='comment-header'>{this.props.author}</p>
         <p className='comment-body'>- {this.props.body}</p>
         <div className='comment-footer'>
-          <a
-            href='#'
-            className='comment-footer-delete'
-            onClick={this._deleteComment}
-          >
-            Delete Comment
-          </a>
         </div>
       </div>
     )

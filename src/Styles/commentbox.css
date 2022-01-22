@@ -18,31 +18,40 @@ button {
   button:focus {
     text-decoration: none;
     outline: none;
-  }
-
+}
+.comment-form-actions{
+  margin-top: 1rem;
+}
+.comment-form-actions button{
+  background-color: #F6EABE;
+  font-size: 1.2rem;
+}
 .comment-box {
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
   max-width: 70rem;
   color: #fff;
-  background-color: #909090;
+  background-color: #212529d3;
   border-radius: 0.875rem;
   padding: 0.2rem 1rem 2rem;
   margin-left: 12%;
-  padding: 2rem;
+  /* box-shadow: -0.3rem 0.3rem .5rem 1.5rem  whitesmoke; */
+}
+.comment-box h2{
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 5%;
 }
 .comment-form {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 0.25rem;
   margin-bottom: 2rem;
   padding: 1rem;  
 }
 .comment-form-fields {
   margin-bottom: 0.25rem;
-  
   }
   input, textarea {
     border: none;
-    border-bottom: 1px solid#404040;
     font-size: 0.85rem;
     padding: 0.25rem 0;
     width: 99%;
@@ -59,15 +68,18 @@ input,textarea:focus {
   }
 
 .comment-count {
-  color:#404040;
+  color:whitesmoke;
 }
 #comment-reveal {
   float: right;
-  background-color: #00BDFC;
-  color: #fff;
+  background-color: #F6EABE;
+  color: black;
+  font-size: 1.1rem;
 }
 .comment {
   border-top: 0.125rem solid#404040;
+  margin: 0;
+  padding: 0;
 }
 .comment-body {
   font-style: italic;
@@ -80,10 +92,41 @@ input,textarea:focus {
   padding: 0.2rem 0;
   color:#404040;
   text-decoration: none;
-  
-  
+}
+.comment-list{
+  padding-top: 4rem;
 }
 .comment-footer-delete:hover {
     color: #00BDFC;
     font-weight: bold;
   }
+  @media screen and (max-width:1300px) {
+    .comment-box {
+      max-width: 48rem;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+  }
+@media screen and (max-width:900px) {
+  .comment-box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .comment-box h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+  }
+  .comment-count{
+    display: none;
+  }
+  /* .comment-form-actions button{
+    margin-left: 15%;
+  } */
+  #comment-reveal{
+    margin-top: -12%;
+  }
+  /* .comment-box {
+    height: 52vh;
+  } */
+}

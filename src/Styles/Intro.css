@@ -4,7 +4,6 @@
       background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-    opacity: .5;
   height: 500px;
  display: flex;
  flex-direction: column;
@@ -19,10 +18,13 @@
 
 .content-1 h1{
     font-size: 8rem;
-   
+   opacity: 1;
+   color: white;
 }
 .content-1 h6{
     font-size: 2rem;
+    opacity: 1;
+    color: white;
 }
 @media only screen and (max-width: 600px) {
  .content-1 h1 {
