@@ -1,24 +1,23 @@
 import React from 'react';
 import '../Styles/Card.css'
 import { Link } from "react-router-dom";
-function Card() {
+function Card(props) {
   return <div className="Card-container">
      <header>
-                <h1>Workshops</h1>
+                <h1>{props.title}</h1>
               </header>
               <div>
-                <img src="https://bit.ly/3KqXSN0" className="post-img" />
+                <img src={props.src} className="post-img" />
               </div>
               <p>
-                Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-                primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-                mattis sagittis magna etiam.
+              {props.text}
               </p>
               <div className="know-container">
-                {" "}
-                <Link to="/" className="know">
+             
+                <Link to="/"
+                 className="know"> 
                   Know More
-                </Link>
+                 </Link> 
               </div>
   </div>;
 }

@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
+    
+}
+.main-heading{
+    align-self: center;
+    margin-top: 10px;
+    font-weight: 600;
 }
 #main{
     display: flex;
@@ -27,6 +33,8 @@
     background:#fff; 
     padding:0 20px; 
     font-size: 5rem;
+    font-weight: 600;
+    font-family: serif;
 }
 .tagline{
     font-size: 2rem;
@@ -43,7 +51,7 @@
     width: 50vw;
 }
 .main-cards{
-    margin-top: 8rem;
+    margin-top: 4rem;
     border-top: solid 2px #eeeeee;
     display: flex;
     flex-direction: column;
@@ -71,25 +79,7 @@
     width: 20vw;
     padding: 1rem;
 } */
-.knowmore{
-    align-items: baseline;
-    color: aliceblue;
-}
-.know-container{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
-}
-.know:hover{
-    background-color: cornflowerblue;
-    color: white;
-}
-.know{
-    color: black;
-    border: 1px solid cornflowerblue;
-    width: 20%;
-    padding: .5rem;
-}
+
 @media screen and (max-width:800px) {
 .post1 {
     display: flex;
