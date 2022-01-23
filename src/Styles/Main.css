@@ -51,6 +51,14 @@
 }
 .main-img{
     width: 50vw;
+    transition: all 0.5s;
+}
+#main:hover .main-img ,
+#main:focus .main-img  {
+  transform: scale(1.2);
+}
+#comeOnBoy{
+    overflow: hidden;
 }
 .main-cards{
     margin-top: 4rem;

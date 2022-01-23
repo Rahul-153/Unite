@@ -9,7 +9,7 @@ function Main() {
         <span>Unite</span>
       </div>
       <div className="tagline">Join Create Progress</div>
-      <div>
+      <div id="comeOnBoy">
         <img src="https://bit.ly/33Qjdi7" className="main-img" />
       </div>
       <div className="desc">

@@ -8,9 +8,10 @@
     margin-top: 0;
 }
 .links{
-    padding: 1rem;
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .nav-links{
     text-decoration: none;
@@ -25,6 +26,9 @@
 .fa-bars:hover{
     cursor: pointer;
 }
+a:hover {
+    color:#D67D3E ;
+}
 .mobile-view{
     display: flex;
     flex-direction: column;
@@ -32,18 +36,32 @@
     justify-content: center;
 }
 .links-google {
-  position: absolute;
-  right:40px;
-
-    
+      margin-right: 20px;
+    margin-left: auto;
+    margin-top: -7px;
+    margin-bottom: 7px;
 }
 @media screen and (max-width:600px) {
     .bars{
         display: block;
-        margin-left: 90%;
+            margin-left: auto;
+           margin-right: 15px;
         margin-top: 1%;
     }
     .links{
         display: none;
     }
+    .links-google {
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width:760px) {
+.nav-links{
+    padding-left: 2rem;
+}
+}
+@media screen and (max-width:660px) {
+.nav-links{
+    padding-left: 1rem;
+}
 }

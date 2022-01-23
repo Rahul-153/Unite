@@ -6,7 +6,7 @@
   justify-content: center;
   grid-template-columns: 40% 40%;
   grid-template-rows: auto;
-  grid-column-gap: 10px;
+  grid-column-gap: 30px;
   grid-row-gap: 20px;
 }
 #project-heading{
@@ -42,18 +42,22 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-@media only screen and (max-width: 600px) {
-  .contri_container {
-    grid-template-columns: 80%;
-  }
-  #project-heading{
-    font-size: 300%;
+@media only screen and (max-width: 900px) {
+#project-heading{
+    font-size: 275%;
+    padding: 0.8rem;
   }
   .android-head,.web-head,.mi-head{
     font-size: 200%;
     width: 100%;
-    text-align: center;
-    padding: 0;
+     text-align: center;
+     padding-left: 0;
   }
+}
+@media only screen and (max-width: 700px) {
+  .contri_container {
+    grid-template-columns: 80%;
+  }
+ 
 }
 

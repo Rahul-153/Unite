@@ -11,13 +11,14 @@ function Card(props)
       <>
         <div id='temp' style={{ width: width }}>
           <div className='workshop_container'>
-            <div
-              className='workshop_cover'
-              style={{
-                backgroundImage: `url('${src}')`,
-              }}
-            ></div>
-
+            <div className='wrap' style={{height:'150px',width:'100%'}}>
+              <div
+                className='workshop_cover'
+                style={{
+                  backgroundImage: `url('${src}')`,
+                }}
+              ></div>
+            </div>
             <div className='workshop_title'>
               {' '}
               <b> {topic}</b>
