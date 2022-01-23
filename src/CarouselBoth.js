@@ -21,6 +21,7 @@ function App()
      }
     return (
       <>
+      <h1 style={{textAlign:"center"}}>Projects</h1>
         <Carousel no={width == '50%' ? 2 : 1}>
           {dataContri.ar.map((item, index) => {
             //const {id,src,title,desc}=item
@@ -35,6 +36,7 @@ function App()
             )
           })}
         </Carousel>
+        <h1 style={{textAlign:"center"}}>Workshops</h1>
         <Carousel no={width == '50%' ? 2 : 1}>
           {data.map((item, index) => {
             //const {id,src,title,desc}=item
