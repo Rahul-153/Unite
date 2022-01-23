@@ -56,11 +56,14 @@
     font-size: 1.5rem;
 }
 .number,.email{
-    padding-top: 1rem;
+    padding-top: 5rem;
     font-size: 1.2rem;
 }
+.number{
+    padding-top: 2.5rem;
+}
 .social{
-    padding:1rem;
+    padding-top:7rem;
 }
 .icons{
     display: flex;
