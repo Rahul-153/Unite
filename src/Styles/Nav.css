@@ -55,13 +55,20 @@ a:hover {
         margin-top: 3px;
     }
 }
-@media screen and (max-width:760px) {
+@media screen and (max-width:950px) {
 .nav-links{
     padding-left: 2rem;
+    font-size:1.5rem;
 }
 }
-@media screen and (max-width:660px) {
+@media screen and (max-width:850px) {
 .nav-links{
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+}
+}
+@media screen and (max-width:800px) {
+.nav-links{
+    padding-left: 0.8rem;
+    font-size:1.3rem ;
 }
 }

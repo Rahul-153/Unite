@@ -3,7 +3,9 @@ import Card from './Workshop_card'
 import '../Styles/workshop_container.css'
 
 import { data } from './data_workshop'
+
 function App() {
+  
   return (
     <>
       <center>
